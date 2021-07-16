@@ -672,7 +672,7 @@ path.tail.selected {
     justify-content: center;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    background-color: #0a0a0a;
+    background-color: #ffffff;
     padding: 10px;
 }
 
@@ -870,6 +870,10 @@ path.tail.selected {
 
     .list-animate-item .text span:last-child {
         color: #d1d1d1;
+    }
+
+    .flex-row-item {
+        background-color: #202020;
     }
 
     .flex-row-item span:first-child {
