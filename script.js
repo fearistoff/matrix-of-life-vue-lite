@@ -58,11 +58,6 @@ new Vue({
       this.currentMatrix = this.createMatrix(date, name);
       this.showResults = true;
       this.mainMenuHidden = true;
-      this.savesListDisplay = false;
-    },
-    getAge: function (dateString) {
-      let date = new Date(dateString);
-      return Math.floor(((new Date()).getTime() - date.getTime()) / (1000 * 3600 * 24 * 365))
     },
     splitAndAdd: function (inNumber) {
       let newNumber;
