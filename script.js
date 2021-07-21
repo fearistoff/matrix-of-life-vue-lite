@@ -35,6 +35,7 @@ const mainTailList = {
   "t15_22": {},
   "t22_7": {},
   "t7_15": {},
+  "t3_22_19": {}
 }
 new Vue({
   el: '#app',
