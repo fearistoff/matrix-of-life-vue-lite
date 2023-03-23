@@ -17,7 +17,7 @@ body {
 }
 
 body::after {
-    content: "@silanteva.julia";
+/*     content: "@silanteva.julia"; */
     position: fixed;
     font-size: 10vw;
     top: 50%;
